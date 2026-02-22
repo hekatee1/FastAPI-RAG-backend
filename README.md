@@ -164,7 +164,7 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "session_id": "test9",
-  "message": "I want to book an interview. My name is Sampurna, email 28smores161@gmail.com, on 2026-02-23 at 10:00"
+  "message": "I want to book an interview. My name is Sampurna, email example@gmail.com, on 2026-02-23 at 10:00"
 }'
 ```
 
@@ -176,7 +176,7 @@ Example response:
 ```json
 {
   "session_id": "test9",
-  "reply": "Thank you for booking the interview. I have noted down the following details:\n\n- Name: Sampurna\n- Email: 28smores161@gmail.com\n- Date: 2026-02-23\n- Time: 10:00\n\nI will make sure to have everything ready for our interview on the scheduled date and time. If there are any changes or cancellations, please let me know as soon as possible.",
+  "reply": "Thank you for booking the interview. I have noted down the following details:\n\n- Name: Sampurna\n- Email: example@gmail.com\n- Date: 2026-02-23\n- Time: 10:00\n\nI will make sure to have everything ready for our interview on the scheduled date and time. If there are any changes or cancellations, please let me know as soon as possible.",
   "booking_detected": true
 }
 ```
